@@ -1,8 +1,10 @@
+import headshot from '../images/headshot.jpeg'
+import linkedInIcon from '../images/linkedin.png'
 
 export default function Info() {
     return (
         <header>
-            <img className='headshot-pic' src='src/images/headshot.jpeg'/>
+            <img className='headshot-pic' src={headshot}/>
             <h1>Nehemiah Chandler</h1>
             <p className="highlight">Frontend Developer</p>
             <div className="btn-container">
@@ -12,7 +14,7 @@ export default function Info() {
                     target='_blank'
                 >
                     
-                    <img className='linkedin-icon'src='src/images/linkedin.png'></img>Linked In
+                    <img className='linkedin-icon'src={linkedInIcon}></img>Linked In
                 
                 </a>
             </div>
